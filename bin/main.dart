@@ -2,7 +2,7 @@ import 'package:mongo_dart/mongo_dart.dart';
 import 'dart:io' show Platform;
 
 void main(List<String> args) async {
-  Db db = Db('mongodb://127.0.0.1:27017/test');
+  var db = Db('mongodb://localhost:27017/test');
   /*
   *here database endpoint i got from mongosh command form terminal
   *first of all we have to install and enable our mongo db documentation
